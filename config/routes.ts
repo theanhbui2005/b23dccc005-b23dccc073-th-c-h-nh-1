@@ -36,6 +36,22 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/short-game',
+		name: 'ShortGame',
+		component: './ShortGame',
+		icon: 'ArrowsAltOutlined',
+	},
+	{
+		path: '/khoikienthuc',
+		name: 'Khối kiến thức',
+		component: './Bai2/Khoikienthuc',
+	},
+	{
+		path: '/Quanlymonhoc',
+		name: 'Quản lý môn học',
+		component: './Bai2/Quanlymonhoc',
+	},
 
 	// DANH MUC HE THONG
 	// {
