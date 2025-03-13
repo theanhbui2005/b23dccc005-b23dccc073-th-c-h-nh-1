@@ -1,4 +1,4 @@
-﻿export default [
+﻿﻿export default [
 	{
 		path: '/user',
 		layout: false,
@@ -54,6 +54,19 @@
 		component: './QuanLyHocTap',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/quanlymonhoc',
+		name: 'QuanLyMonHoc',
+		component: './QuanLyMonHoc',
+		icon: 'ArrowsAltOutlined',
+	},
+	{
+		path: '/appointments',
+		name: 'Quản Lý Lịch Hẹn',
+		component: './appointments/index',
+		icon: 'CalendarOutlined',
+	},
+
 
 	// DANH MUC HE THONG
 	// {
@@ -107,4 +120,7 @@
 	{
 		component: './exception/404',
 	},
+	{ path: "/", component: "index" },
+	{ path: "/appointments", component: "appointments/index" },
+	{ path: "/appointments/book", component: "appointments/book" },
 ];
